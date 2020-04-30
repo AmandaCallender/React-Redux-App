@@ -1,10 +1,38 @@
 .App {
   text-align: center;
+  background-image: url('background.jpg');
+ height: 96vh;
+  color: #DDDDDD;
+  font-family: cursive;
+  color: black;
+  padding: 2%;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
+}
+button{
+  border: none;
+  background-color: darkgrey; 
+  border-radius: 15px;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  font-family: cursive;
+  color: black;
+  position: relative;
+}
+
+button:active {
+  background-color: darkgrey;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+h1{
+  font-size: 50px;
+  font-family: cursive;
 }
 
 @media (prefers-reduced-motion: no-preference) {
